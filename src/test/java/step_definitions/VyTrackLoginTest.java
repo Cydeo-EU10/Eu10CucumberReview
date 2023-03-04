@@ -31,4 +31,11 @@ public class VyTrackLoginTest {
         String expected = "Quick Launchpad";
         Assert.assertEquals(expected,actual);
     }
+
+    @Then("user is getting alert message")
+    public void user_is_getting_alert_message() {
+        String actualMsg = loginPage.msg.getText();
+        String expectedMsg = "Invalid user name or password.";
+        Assert.assertEquals(expectedMsg,actualMsg);
+    }
 }

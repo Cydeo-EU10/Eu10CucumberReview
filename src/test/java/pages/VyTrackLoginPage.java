@@ -20,5 +20,9 @@ public class VyTrackLoginPage {
     @FindBy(id = "_submit")
     public WebElement submitBtn;
 
+    @FindBy(xpath = "//div[@class=\"alert alert-error\"]/div")
+    public WebElement msg;
+
+
 
 }
