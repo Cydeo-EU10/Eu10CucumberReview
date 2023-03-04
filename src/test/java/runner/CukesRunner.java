@@ -10,7 +10,7 @@ import org.junit.runner.*;
         },
         features = "src/test/resources/features",
         glue = "step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = "@wip"
 )
 
