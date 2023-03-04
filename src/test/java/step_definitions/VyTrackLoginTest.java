@@ -3,10 +3,13 @@ package step_definitions;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 import pages.*;
 import utilities.*;
 
 public class VyTrackLoginTest {
+
+    WebDriver driver = new ChromeDriver();
 
     VyTrackLoginPage loginPage = new VyTrackLoginPage();
     @Given("user is on the login page")
@@ -21,7 +24,6 @@ public class VyTrackLoginTest {
     }
     @Then("user is on the dashboard page")
     public void user_is_on_the_dashboard_page() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
     }
 }
