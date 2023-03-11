@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4628d6b1-f46b-4055-9308-6ed28d3f2ee8" name="Changes" comment="week 8 review projectis developed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/VidualTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/vidualValidation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/DataTestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ShoppingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ShoppingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/swagLabsLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/swagLabsLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dataTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/vidualValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/vidualValidation.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <updated>1677946017359</updated>
       <workItem from="1677946018727" duration="12225000" />
       <workItem from="1678546745025" duration="3717000" />
-      <workItem from="1678550487608" duration="7216000" />
+      <workItem from="1678550487608" duration="8630000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1677948472144</created>
@@ -235,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678561601183</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="week 8 review projectis developed">
+      <created>1678563032752</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678563032752</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
