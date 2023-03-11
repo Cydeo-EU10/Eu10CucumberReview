@@ -1,6 +1,7 @@
 package step_definitions;
 
 import io.cucumber.java.en.*;
+import org.junit.*;
 import org.openqa.selenium.*;
 import pages.*;
 import utilities.*;
@@ -8,6 +9,7 @@ import utilities.*;
 public class SwagLabLoginSteps {
 
     LabLoginPage login = new LabLoginPage();
+    ShoppingPage sp = new ShoppingPage();
 
     @Given("user goes to the login page")
     public void user_goes_to_the_login_page() {
@@ -21,6 +23,8 @@ public class SwagLabLoginSteps {
     }
     @Then("user is on the dashboard")
     public void user_is_on_the_dashboard() {
-
+        String expected = "Swag Labs";
+        String actual = sp.title.getText();
+        Assert.assertEquals(expected,actual);
     }
 }

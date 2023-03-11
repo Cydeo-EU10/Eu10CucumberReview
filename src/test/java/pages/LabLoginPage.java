@@ -18,4 +18,5 @@ public class LabLoginPage {
 
     @FindBy(id = "login-button")
     public WebElement loginBtn;
+
 }
