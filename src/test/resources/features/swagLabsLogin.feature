@@ -1,12 +1,12 @@
 Feature: Login test of Swag Lab app
 
-  @wip
+#  @wip
   Scenario: positive login test
     Given user goes to the login page
     When user login with validate credentials
     Then user is on the dashboard
 
-  @wip
+#  @wip
   Scenario: negative login test
     Given user goes to the login page
     When user login with invalid credentials

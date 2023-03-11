@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4628d6b1-f46b-4055-9308-6ed28d3f2ee8" name="Changes" comment="week 8 review projectis developed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/VidualTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/vidualValidation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LabLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LabLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/SwagLabLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/SwagLabLoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ShoppingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ShoppingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/swagLabsLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/swagLabsLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,7 @@
       <updated>1677946017359</updated>
       <workItem from="1677946018727" duration="12225000" />
       <workItem from="1678546745025" duration="3717000" />
-      <workItem from="1678550487608" duration="5902000" />
+      <workItem from="1678550487608" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1677948472144</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678556809906</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="week 8 review projectis developed">
+      <created>1678561601183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678561601183</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
