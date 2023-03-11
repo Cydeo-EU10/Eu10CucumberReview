@@ -27,4 +27,18 @@ public class SwagLabLoginSteps {
         String actual = sp.title.getText();
         Assert.assertEquals(expected,actual);
     }
+
+    @When("user login with invalid credentials")
+    public void user_login_with_invalid_credentials() {
+        login.usernameInput.sendKeys("invalid user name");
+        login.passwordInput.sendKeys("invalid password");
+        login.loginBtn.click();
+    }
+    @Then("user gets error messages")
+    public void user_gets_error_messages() {
+        String expected = "Epic sadface: Username and password do not match any user in this service";
+        String  actual = login.errorMsg.getText();
+        Assert.assertEquals("This is error message validation",expected, actual);
+    }
+
 }

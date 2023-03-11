@@ -19,4 +19,7 @@ public class LabLoginPage {
     @FindBy(id = "login-button")
     public WebElement loginBtn;
 
+    @FindBy(tagName = "h3")
+    public WebElement errorMsg;
+
 }
