@@ -3,7 +3,7 @@ Feature: Dashboard Test
   Background:
     Given user is on the login page
 
-  @wip
+#  @wip
   Scenario Outline: Check dashboard elements as user
     When user enters as different "<role>"
     Then user should see menu options
